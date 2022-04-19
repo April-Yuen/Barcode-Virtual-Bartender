@@ -1,0 +1,100 @@
+/******************************************
+/* CSS
+/*******************************************/
+html{
+  font-size: 62.5%;
+  background-color: #a9d6e5;
+  color: #014f86;
+  font-family: 'Prompt', sans-serif;
+}
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  h4{
+    font-size: 1.5rem;
+  }
+
+  .getCocktail{
+    text-align: center;
+  }
+
+  .imagename{
+    width: 50%;
+    background-color: #89c2d9;
+  }
+
+  .informationOnCocktail{
+    width: 50%;
+    text-align: center;
+    background-color: #61a5c2;
+  }
+
+  .mainSection{
+    padding-top: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60%;
+  }
+
+  .ingredientsMeasurements{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-left: 27%;
+  }
+  
+  button{
+    background-color: #89c2d9;
+    border: 1px solid #1a759f;
+    color: #014f86;
+    border-radius: 3px;
+    font-size: 2rem;
+  }
+
+  input{
+    font-size: 2rem;
+    border: 1px solid #1a759f;
+  }
+
+  .ingredients, .measure{
+    text-align: center;
+  }
+
+  .instructions {
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .measurementsTitle{
+    padding-left: 5%;
+  }
+
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
