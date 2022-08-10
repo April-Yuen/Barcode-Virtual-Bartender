@@ -3,19 +3,19 @@
 
 ## How It's Made:
 
-I used The Cocktail DB API to fetch data through the use of promises. The fetch allowed me to avoid callback hell. Through the fetch function, I was able to input the path to the Cocktail DB API and return a promise to the response of that request. 
+I used The Cocktail DB API to fetch data through the use of promises. Through the fetch function, I was able to input the path to the Cocktail DB API and return a promise to the response of that request. 
 
-The user will enter in a drink they would like to make in the input, then we will make a fetch to the Cocktail DB API, which will return a response in json(). Then I pass value I recieved from the Promise into my chain as the data object. Then I identify the various keys values I would like displayed on the DOM. Finally I am able to render the values on the DOM using Javascript, HTML, and CSS. 
+The user will enter a drink they would like to make into the input, then a fetch is made to the Cocktail DB API, which will return a response in json(). Then the value will be passed from the Promise into the .then as the data object. Through the data object, various keys and values can be identified. The values are rendered on the DOM using Javascript, HTML, and CSS. 
 
 **Tech used:** HTML, CSS, JavaScript
 
 ## Optimizations
 
-If I had more time, I would fetch more information from the database and perhaps add another external API that includes videos of how to make the cocktails. The cocktail DB does not include videos on how to make the cocktails. Perhaps I could also add a list of drinks that can be made based on the type of alcohol and let the users choose I drink they would like to make. 
+If I had more time, I would fetch more information from the database and perhaps add another external API that includes videos of how to make the cocktails. The Cocktail DB API does not include videos on how to make the cocktails. Perhaps I could also add a list of drinks that can be made based on the type of alcohol and let the users choose the drink they would like to make. 
 
 ## Lessons Learned:
 
-I learned how to fetch data from APIs, render that data into the DOM, and also take input from users. I also brushed up on my CSS skills. Being able to take the input from the user and return the requested data, was very rewarding. 
+I learned how to fetch data from APIs, render that data onto the DOM, and also take input from users. I also brushed up on my CSS skills. Being able to take the input from the user and return the requested data, was a rewarding experience. 
 
 
 
