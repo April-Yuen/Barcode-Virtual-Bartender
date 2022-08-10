@@ -3,11 +3,12 @@
 
 ## How It's Made:
 
+**Tech used:** HTML, CSS, JavaScript
+
 I used The Cocktail DB API to fetch data through the use of promises. Through the fetch function, I was able to input the path to the Cocktail DB API and return a promise to the response of that request. 
 
 The user will enter a drink they would like to make into the input, then a fetch is made to the Cocktail DB API, which will return a response in json(). Then the value will be passed from the Promise into the .then as the data object. Through the data object, various keys and values can be identified. The values are rendered on the DOM using Javascript, HTML, and CSS. 
 
-**Tech used:** HTML, CSS, JavaScript
 
 ## Optimizations
 
